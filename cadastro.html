@@ -5,7 +5,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>pagCadastro</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/Produto.css"/>
@@ -13,11 +13,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     <body>
         <form action="Cadastrar.jsp" method="POST">
             
+            <h1 align="center">Cadastro do produto</h1>
             Codigo: <input type="text" required name="codigo"><br>
             Descrição: <input type="text" required name="descricao"><br>
             Fabricação:<input type="text" required name="fabricacao"><br>
             Quantidade:<input type="number" required name="qtd"><br>
             Preço:     <input type="text" required name="preco"><br>
+            Imagem:    <input type="file" required name="img-url"><br><br>
 
             <input type="submit" value="Cadastrar">            
             <input type="reset" value="Limpar">
